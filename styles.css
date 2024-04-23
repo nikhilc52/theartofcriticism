@@ -1,0 +1,46 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+td {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 33.3%;
+}
+
+table {
+    display: flexbox;
+    max-width: 80%;
+}
+
+a {
+    color: inherit;
+}
+
+a:focus{
+    outline: none;
+}
+
+img { 
+    transition: box-shadow 0.3s ease; 
+} 
+
+img:hover { 
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5); 
+} 
+
+html{scroll-behavior:smooth}
+
+.author-list p{
+    text-align: center;
+}
