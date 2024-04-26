@@ -8,6 +8,10 @@ h6 {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+body{
+    background-color: #f7f7f7;
+}
+
 
 td {
     text-align: center;
@@ -31,11 +35,11 @@ a:focus{
     outline: none;
 }
 
-img { 
+table img { 
     transition: box-shadow 0.3s ease; 
 } 
 
-img:hover { 
+table img:hover { 
     box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5); 
 } 
 
