@@ -115,7 +115,8 @@ html{scroll-behavior:smooth}
   }
   
   .photobanner img {    
-    margin: 0 0.5em 
+    margin: 0 0.5em;
+    transition: transform .2s;
   }
   
   @keyframes bannermove {
@@ -126,3 +127,8 @@ html{scroll-behavior:smooth}
         transform: translate(-50%, 0);
     }
   }
+
+
+  .photobanner img:hover { 
+    transform: scale(1.1); 
+}
